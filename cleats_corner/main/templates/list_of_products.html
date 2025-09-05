@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daftar Produk</title>
+  </head>
+  <body>
+    <h1>Daftar Produk</h1>
+    <ul>
+      {% for product in products %}
+      <li>
+        <strong>{{ product.name }}</strong> - Rp {{ product.price }}
+        <a href="{% url 'product_detail' product.id %}">Detail</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
