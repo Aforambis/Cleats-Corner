@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-y*qwh)^x30x3533bdfs-zp)d362d)$*#gpbcgeahp(%av5w3u9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["rusydan-mujtaba-cleatscorner.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ["rusydan-mujtaba-cleatscorner.pbp.cs.ui.ac.id",
+                 "http://127.0.0.1:8000"]
 
 # Application definition
 
